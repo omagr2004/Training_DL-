@@ -1,0 +1,156 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": [
+          "hello",
+          "hi",
+          "hey",
+          "good",
+          "greet",
+          "what's up",
+          "good day"
+        ],
+        "responses": ["hello", "hi", "hey", "good day", "good"]
+      },
+      {
+        "tag": "good bye",
+        "patterns": ["good bye", "see you later", "bye bye", "bye"],
+        "responses": ["good bye", "ok", "bye bye", "bye", "Talk to you later"]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "your name",
+          "what is your name?",
+          "who are you?",
+          "about you"
+        ],
+        "responses": [
+          "kunnu",
+          "my name is kunnu",
+          "you can call me kunnu.",
+          "i am kunnu"
+        ]
+      },
+      {
+        "tag": "company",
+        "patterns": [
+          "your comapny",
+          "what company name?",
+          "company name?",
+          "about you company name"
+        ],
+        "responses": [
+          "kunnu",
+          "my comapny name is kunnu",
+          "you can call my company named as kunnu.",
+          "comapny name kunnu"
+        ]
+      },
+      {
+        "tag": "getplanprice",
+        "patterns": [
+          "I am looking for a plan",
+          "What are the prices for a family plan?",
+          "Can you help me find a plan?"
+        ],
+        "responses": [
+          "Of course! I'd be happy to help you find the right plan. Could you let me know if you're looking for an individual plan or a family plan? And also, which city and state are you based in?",
+          "The main differences between an individual plan and a family plan are as follows:...",
+          "Great choice! To get started on finding the best family plan for you, could you please provide the following details:..."
+        ]
+      },
+      {
+        "tag": "cancelplan",
+        "patterns": [
+          "I want to cancel my plan",
+          "How do I stop my subscription?",
+          "Can I cancel my plan online?"
+        ],
+        "responses": [
+          "Sorry to hear that you want to cancel your plan. Can you please provide me with your account details so I can assist you with the cancellation process?",
+          "Yes, you can cancel your plan online by logging into your account and following the prompts.",
+          "Please note that canceling your plan will result in the loss of any unused benefits. Are you sure you want to proceed?"
+        ]
+      },
+      {
+        "tag": "checkbalance",
+        "patterns": [
+          "What's my balance?",
+          "How much do I owe?",
+          "Can you check my account balance?"
+        ],
+        "responses": [
+          "I'd be happy to check your balance for you. Can you please provide me with your account details?",
+          "According to our records, your current balance is $X.XX.",
+          "You can also check your balance online by logging into your account."
+        ]
+      },
+      {
+        "tag": "makepayment",
+        "patterns": [
+          "I want to make a payment",
+          "How do I pay my bill?",
+          "Can I pay online?"
+        ],
+        "responses": [
+          "You can make a payment online by logging into your account and following the prompts.",
+          "We accept various payment methods, including credit card, debit card, and bank transfer.",
+          "Please note that payments made after the due date may incur a late fee."
+        ]
+      },
+      {
+        "tag": "changeplan",
+        "patterns": [
+          "I want to change my plan",
+          "Can I upgrade my plan?",
+          "How do I switch to a different plan?"
+        ],
+        "responses": [
+          "I'd be happy to help you change your plan. Can you please provide me with your account details?",
+          "Yes, you can upgrade or downgrade your plan at any time.",
+          "Please note that changing your plan may affect your current benefits and pricing."
+        ]
+      },
+      {
+        "tag": "gethelp",
+        "patterns": [
+          "I need help",
+          "Can you assist me?",
+          "I'm having trouble with my account"
+        ],
+        "responses": [
+          "I'm here to help! Can you please provide me with more details about the issue you're experiencing?",
+          "I'd be happy to assist you with any questions or concerns you may have.",
+          "Sorry to hear that you're having trouble with your account. Let me see what I can do to help."
+        ]
+      },
+      {
+        "tag": "checkcoverage",
+        "patterns": [
+          "What's my coverage like?",
+          "Do I have coverage in my area?",
+          "Can you check my coverage?"
+        ],
+        "responses": [
+          "I'd be happy to check your coverage for you. Can you please provide me with your location?",
+          "According to our records, you have coverage in your area.",
+          "You can also check your coverage online by logging into your account."
+        ]
+      },
+      {
+        "tag": "adddevice",
+        "patterns": [
+          "I want to add a device",
+          "Can I add a new phone?",
+          "How do I add a tablet to my plan?"
+        ],
+        "responses": [
+          "I'd be happy to help you add a device to your plan. Can you please provide me with your account details?",
+          "Yes, you can add a new device to your plan at any time.",
+          "Please note that adding a new device may affect your current pricing and benefits."
+        ]
+      }
+    ]
+  }
