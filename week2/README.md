@@ -7,4 +7,4 @@
 ### 5. Chatbot
 ### 6. Object Detection
 #### Date :- 24 Jun - 29 Jun 
-#### By Rahul Gupta
+#### By Apurva Singh
